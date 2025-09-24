@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Semaforo</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="semaforo">
+            <p class="luz" id="rojo"></p>
+            <p class="luz" id="amarillo"></p>
+            <p class="luz" id="verde"></p>
+        </div>
+
+        <div id="colores">
+            <button onclick="encender('rojo')">Rojo</button>
+            <button onclick="encender('amarillo')">Amarillo</button>
+            <button onclick="encender('verde')">Verde</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

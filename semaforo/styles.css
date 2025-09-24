@@ -1,0 +1,25 @@
+#semaforo {
+    width: 100px;
+    padding: 10px;
+    background: black;
+    border-radius: 20px;
+}
+.luz {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background: gray;
+}
+.activo {
+    box-shadow: 0 0 20px white; /* brillo */
+}
+#rojo.activo {
+    background: red;
+}
+#amarillo.activo {
+    background: yellow;
+}
+#verde.activo {
+    background: green;
+}

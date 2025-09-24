@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tabla de multiplicar</title>
+        <link rel="stylesheet" href="tabla.css" />
+    </head>
+    <body>
+        <h1>Tablas de multiplicar</h1>
+        <h2>Por Gerardo</h2>
+
+        <input
+            on
+            type="text"
+            id="pantalla"
+            placeholder="Ingrese la tabla a multiplicar"
+            inputmode="numeric"
+            oninput="activar()"
+        />
+        <button onclick="calcular()" id="activar" disabled="disabled">
+            Calcular
+        </button>
+
+        <div onclick="calcular()" id="tabla" hidden="false"></div>
+
+        <script src="tabla.js"></script>
+    </body>
+</html>
